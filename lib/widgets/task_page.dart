@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../models/task.dart';
-import '../widgets/task_list.dart';
-import '../widgets/date.dart';
+import './task_list.dart';
+import './date.dart';
 import './new_task.dart';
 
 class TaskPage extends StatefulWidget {
@@ -18,22 +18,6 @@ class _TaskPageState extends State<TaskPage> {
       date: DateTime.now(),
       time: TimeOfDay.now(),
       tag: 'medicine',
-      taskDone: false,
-    ),
-    Task(
-      title: 'Evening Walk 2km',
-      description: 'abcdefg',
-      date: DateTime.now(),
-      time: TimeOfDay.now(),
-      tag: 'exercise',
-      taskDone: false,
-    ),
-    Task(
-      title: 'Evening Walk 2km',
-      description: 'abcdefg',
-      date: DateTime.now(),
-      time: TimeOfDay.now(),
-      tag: 'exercise',
       taskDone: false,
     ),
     Task(

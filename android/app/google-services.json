@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "776707055261",
+    "project_id": "medwise-29c8d",
+    "storage_bucket": "medwise-29c8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776707055261:android:a0d4eefecc139c0b6dfe74",
+        "android_client_info": {
+          "package_name": "com.example.Medwise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776707055261-cr9j432tf8u08spfbuidvt3g54lmfdgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5eOAqQv8EfNV2bGfdQ9QTNKbFm-2oMb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776707055261-cr9j432tf8u08spfbuidvt3g54lmfdgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
 class TaskListTile extends StatefulWidget {
-  @override
-  _TaskListTileState createState() => _TaskListTileState();
   String title, description, time;
   TaskListTile({this.title, this.description, this.time});
+
+  @override
+  _TaskListTileState createState() => _TaskListTileState();
 }
 
 final double diameter = 30;
@@ -104,7 +105,7 @@ class _TaskListTileState extends State<TaskListTile> {
         shape: BoxShape.circle,
         color: Colors.blue,
       ),
-      child: Image.asset('assets/tick.png'),
+      child: Image.asset('assets/images/tick.png'),
     );
   }
 }
